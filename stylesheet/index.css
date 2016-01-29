@@ -1,0 +1,121 @@
+#body{
+	font-family: "微软雅黑";
+	position: relative;
+	margin: 0px;
+	height: 630px;
+	border: 1px solid #CEEBEF;
+	background: #CEEBEF;
+}
+
+#wai{
+	width: 1300px;
+	padding: 25px 5px 10px 30px;
+	border-radius: 10px;
+	/*margin: 0px auto;*/
+	position: absolute;
+	bottom:10px;
+	left: 15px;
+	/*float问题*/
+	/*overflow: hidden;*/
+	box-shadow: 0 2px 20px black;
+	background: #fff;
+}
+.ren{
+	width: 189px;
+	height: 249px;
+	margin:20px 50px 0px; 
+	background: url("../image/ren.png");
+}
+.xiao{
+	width: 85px;
+	height:85px;
+	/*background-color: rgba(123,13,223,0.6);*/
+	float: left;
+	border-radius:50%;
+	border: 1px solid #9DC2F7;
+	margin: 0 12px 10px 0;
+	font-size: 2em;
+	color:black;
+	text-align: center;
+	line-height: 85px;
+	box-shadow: 0 1px 4px black;
+	-webkit-transition:all ease 1s;
+}
+
+
+#yun{
+	width: 500px;
+	height: 278px;
+	position: absolute;
+	top: 10px;
+	left: 350px; 
+	opacity: 0.4;
+	background: url("../image/yun1.png");
+}
+.qingwa{
+	width: 150px;
+	height: 140px;
+	position: absolute;
+	top: 30px;
+	right: 60px;
+	background-size: cover;
+	background-image:url("../image/time.png"); 
+}
+#time{
+	width: 135px;
+	height: 60px;
+	position: absolute;
+	top: 48px;
+	left: 11px;
+	/*border: 2px solid black;*/
+	/*border-radius: 10px;*/
+	color:black;
+	font-size:38px;
+	font-weight: 400;
+	font-family: "方正黄草简体";
+}
+#fen{
+	text-align: right;
+	line-height: 60px;
+	width: 65px;
+	height: 60px;
+	display: inline-block;
+	float: left;
+}
+#miao{
+	text-align: center;
+	line-height: 60px;
+	width: 55px;
+	height: 60px;
+	display: inline-block;
+	float: right;
+	margin-right: 15px;
+}
+#zhezhao{
+	width:1360px;
+	height: 630px;
+	position: absolute;
+	top: 0px;
+	left:2px; 
+	z-index: 1;
+	display: none;
+	background:no-repeat url("../image/1.jpg");
+}
+#shijian{
+	position: absolute;
+	top: 220px;
+	right: 450px;
+	font-size: 54px;
+	font-family: "方正黄草简体";
+}
+#btn{
+	font-family: "方正行楷简体";
+	width: 90px;
+	height: 40px;
+	font-size: 40px;
+	position: absolute;
+	top: 380px;
+	right: 520px;
+	font-weight: bold;
+	cursor: pointer;
+}
